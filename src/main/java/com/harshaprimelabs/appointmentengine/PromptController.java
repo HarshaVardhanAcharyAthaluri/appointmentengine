@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 public class PromptController {
 
-    public static final String AI_API = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyASeGyNv_JiC_5hacAB6edXm77_9i4aqm8";
+    public static final String AI_API = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=API_KEY";
 
     @Autowired
     RestTemplate restTemplate;
